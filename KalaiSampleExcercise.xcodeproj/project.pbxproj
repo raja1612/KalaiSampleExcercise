@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		D5CCE9061A10293D0039DC09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CCE9051A10293D0039DC09 /* main.m */; };
-		D5CCE9091A10293D0039DC09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CCE9081A10293D0039DC09 /* AppDelegate.m */; };
-		D5CCE90C1A10293D0039DC09 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CCE90B1A10293D0039DC09 /* MasterViewController.m */; };
-		D5CCE90F1A10293D0039DC09 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CCE90E1A10293D0039DC09 /* DetailViewController.m */; };
 		D5CCE9121A10293D0039DC09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5CCE9101A10293D0039DC09 /* Main.storyboard */; };
 		D5CCE9141A10293D0039DC09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5CCE9131A10293D0039DC09 /* Images.xcassets */; };
-		D5CCE9171A10293D0039DC09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5CCE9151A10293D0039DC09 /* LaunchScreen.xib */; };
 		D5CCE9231A10293D0039DC09 /* KalaiSampleExcerciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CCE9221A10293D0039DC09 /* KalaiSampleExcerciseTests.m */; };
+		D5CCE9321A1029930039DC09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CCE92D1A1029930039DC09 /* AppDelegate.m */; };
+		D5CCE9331A1029930039DC09 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CCE92F1A1029930039DC09 /* MasterViewController.m */; };
+		D5CCE9341A1029930039DC09 /* TableCellDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CCE9311A1029930039DC09 /* TableCellDisplay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,18 +30,17 @@
 		D5CCE9001A10293D0039DC09 /* KalaiSampleExcercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KalaiSampleExcercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5CCE9041A10293D0039DC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5CCE9051A10293D0039DC09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D5CCE9071A10293D0039DC09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D5CCE9081A10293D0039DC09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D5CCE90A1A10293D0039DC09 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		D5CCE90B1A10293D0039DC09 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		D5CCE90D1A10293D0039DC09 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		D5CCE90E1A10293D0039DC09 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		D5CCE9111A10293D0039DC09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5CCE9131A10293D0039DC09 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D5CCE9161A10293D0039DC09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D5CCE91C1A10293D0039DC09 /* KalaiSampleExcerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KalaiSampleExcerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5CCE9211A10293D0039DC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5CCE9221A10293D0039DC09 /* KalaiSampleExcerciseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KalaiSampleExcerciseTests.m; sourceTree = "<group>"; };
+		D5CCE92C1A1029930039DC09 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5CCE92D1A1029930039DC09 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5CCE92E1A1029930039DC09 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		D5CCE92F1A1029930039DC09 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		D5CCE9301A1029930039DC09 /* TableCellDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCellDisplay.h; sourceTree = "<group>"; };
+		D5CCE9311A1029930039DC09 /* TableCellDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCellDisplay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,15 +82,14 @@
 		D5CCE9021A10293D0039DC09 /* KalaiSampleExcercise */ = {
 			isa = PBXGroup;
 			children = (
-				D5CCE9071A10293D0039DC09 /* AppDelegate.h */,
-				D5CCE9081A10293D0039DC09 /* AppDelegate.m */,
-				D5CCE90A1A10293D0039DC09 /* MasterViewController.h */,
-				D5CCE90B1A10293D0039DC09 /* MasterViewController.m */,
-				D5CCE90D1A10293D0039DC09 /* DetailViewController.h */,
-				D5CCE90E1A10293D0039DC09 /* DetailViewController.m */,
+				D5CCE92C1A1029930039DC09 /* AppDelegate.h */,
+				D5CCE92D1A1029930039DC09 /* AppDelegate.m */,
+				D5CCE92E1A1029930039DC09 /* MasterViewController.h */,
+				D5CCE92F1A1029930039DC09 /* MasterViewController.m */,
+				D5CCE9301A1029930039DC09 /* TableCellDisplay.h */,
+				D5CCE9311A1029930039DC09 /* TableCellDisplay.m */,
 				D5CCE9101A10293D0039DC09 /* Main.storyboard */,
 				D5CCE9131A10293D0039DC09 /* Images.xcassets */,
-				D5CCE9151A10293D0039DC09 /* LaunchScreen.xib */,
 				D5CCE9031A10293D0039DC09 /* Supporting Files */,
 			);
 			path = KalaiSampleExcercise;
@@ -173,6 +170,7 @@
 				TargetAttributes = {
 					D5CCE8FF1A10293D0039DC09 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = RKATU462U4;
 					};
 					D5CCE91B1A10293D0039DC09 = {
 						CreatedOnToolsVersion = 6.0;
@@ -205,7 +203,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5CCE9121A10293D0039DC09 /* Main.storyboard in Resources */,
-				D5CCE9171A10293D0039DC09 /* LaunchScreen.xib in Resources */,
 				D5CCE9141A10293D0039DC09 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,10 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5CCE9091A10293D0039DC09 /* AppDelegate.m in Sources */,
-				D5CCE90C1A10293D0039DC09 /* MasterViewController.m in Sources */,
+				D5CCE9321A1029930039DC09 /* AppDelegate.m in Sources */,
+				D5CCE9331A1029930039DC09 /* MasterViewController.m in Sources */,
 				D5CCE9061A10293D0039DC09 /* main.m in Sources */,
-				D5CCE90F1A10293D0039DC09 /* DetailViewController.m in Sources */,
+				D5CCE9341A1029930039DC09 /* TableCellDisplay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,14 +253,6 @@
 				D5CCE9111A10293D0039DC09 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D5CCE9151A10293D0039DC09 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D5CCE9161A10293D0039DC09 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -349,9 +338,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kalai Raja Manavalan (AB7VAKGGJZ)";
 				INFOPLIST_FILE = KalaiSampleExcercise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0da057c1-11ce-45c7-bf6f-1c5bee387f4c";
 			};
 			name = Debug;
 		};
@@ -359,9 +351,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kalai Raja Manavalan (AB7VAKGGJZ)";
 				INFOPLIST_FILE = KalaiSampleExcercise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0da057c1-11ce-45c7-bf6f-1c5bee387f4c";
 			};
 			name = Release;
 		};

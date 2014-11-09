@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  KalaiSampleExcercise
+//  iOSSampleExcercise
 //
-//  Created by Thirumalai.Rajan on 10/11/2014.
+//  Created by Kalai Raja on 08/11/2014.
 //  Copyright (c) 2014 Kalai Raja. All rights reserved.
 //
 
